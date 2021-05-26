@@ -27,7 +27,7 @@ body {
   background-color: #99c2ff;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   text-align: right;
 }
 .nav a {
@@ -51,7 +51,7 @@ body {
 
 .home-tagline-box {
   position: relative;
-  width: 100%;
+  width: 97.9%;
   font-size: 40px;
   background-color: #66a3ff;
   padding-left: 30px;
@@ -101,26 +101,6 @@ body {
 
 .examples-title-1 {
   text-align: center;
-  color: #80b3ff;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-size: 35px;
-  position: relative;
-  width: inherit;
-}
-
-.examples-list{
-  font-size: 20px;
-  position: relative;
-  padding-left: 350px;
-  padding-right: 350px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-}
-
-.examples-title-2 {
-  text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -129,6 +109,38 @@ body {
   position: relative;
   width: inherit;
   background-color: #66a3ff;
+}
+
+.examples-title-1 h2 {
+  margin: 0;
+  padding: 30 0 30 0;
+}
+
+.examples-list{
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 30px;
+  padding-left: 350px;
+  padding-right: 350px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  background-color: #66a3ff;
+  color: white;
+}
+
+.examples-list ul {
+  margin-top: 0;
+}
+
+.examples-title-2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  position: relative;
+  background-color: #80b3ff;
+  color: white;
+  margin: 0 350 40 350;
 }
 
 .examples-title-2 h2 {
@@ -138,19 +150,25 @@ body {
 .owner-vs-tpw {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #66a3ff;
+  width: 900px;
+  grid-gap: 2em;
+  margin: 0 0 40 350;
   color: white;
-  width: 700px;
-  
+  font-size: 20px;
 }
 
 .owner-vs-tpw h2 {
-  font-size: 25px;
-  color: white;
+  font-size: 35px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-decoration: underline;
+  text-align: center;
 }
+
+.owner-vs-tpw > div {
+  background-color: #66a3ff;
+}
+
 
 
 /*EXAMPLES PAGE*/
@@ -158,25 +176,35 @@ body {
 /*Pricing */
 
 .pricingAll{
-  background-color: #7293d6;
+  background-color: #efeff5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pricingHeader{
   padding: 1em;
   font-size: 25px;
-  background-color: #72c1f2;
+  background-color: #66a3ff;
+  color: white;
+}
+
+.pricingHeader h2 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin: 10 0 10 0;
 }
 
 .pricing {
   display: grid;
   grid-template-columns: 250px 250px;
   grid-gap: 2em;
-  margin: 50px 50px 50px 50px;
+  margin: 50 50 0 50;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .pricing > div{
-  background-color: lightblue;
+  background-color: #66a3ff;
   text-align: center;
 }
 
@@ -191,12 +219,13 @@ body {
 
 /*Footer*/
 
+
 .footer {
   position: relative;
   bottom: 0;
   background-color: #99c2ff;
   text-align: center;
-  padding-top: 1px;
+  padding-top: 10px;
   padding-bottom: 15px;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -212,4 +241,31 @@ body {
 
 .footer-contact-info{
   font-size: 25px;
+}
+
+/*CONTACT PAGE FOOTER*/
+
+
+.contact-footer {
+  position: relative;
+  bottom: 0;
+  background-color: #99c2ff;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.contact-footer-title{
+  font-size: 20px;
+}
+
+.contact-footer-body{
+  font-size: 20px;
+}
+
+.contact-footer-contact-info{
+  font-size: 25px;
+  padding-bottom: 220px;
 }
