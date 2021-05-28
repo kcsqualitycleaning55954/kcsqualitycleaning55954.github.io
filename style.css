@@ -1,17 +1,8 @@
 body {
   margin: 0px;
-  background-color: #efeff5;
+  background-color: #f6f6f8;
 }
 
-/*h1, h2, h3, p {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-/*h3 {
-  font-size: 25px;
-  text-decoration: underline;
-}
 
 /*Nav Bar*/
 
@@ -47,225 +38,79 @@ body {
 
 /*Nav Bar*/
 
-/*Home & Info*/
+/*Info Page*/
 
-.home-tagline-box {
-  position: relative;
-  width: 97.9%;
-  font-size: 40px;
-  background-color: #66a3ff;
-  padding-left: 30px;
+.info-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.home-tagline{
-  width: 700px;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  padding-left: 80px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin: 0;
+/*Info Page*/
+
+/*Examples Page*/
+
+.examples-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.who-we-are {
-  font-size: 45px;
-  padding: 10px;
-  background-color: #80b3ff;
-  text-align: center;
-  position: relative;
-  width: 300px;
-  margin-left: 200px;
-  margin-top: 35px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  color: white;
+/*Examples Page*/
+
+/*Pricing Page*/
+
+.pricing-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.home-info {
-  position: relative;
-  margin-left: 300px;
-  margin-right: 300px;
-  width: 850px;
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+/*Pricing Page*/
+
+/*Contact Page*/
+
+.contact-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.example-button{
-  text-decoration: underline;
-  color: black;
-}
-
-/*EXAMPLES PAGE*/
-
-.examples-title-1 {
-  text-align: center;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-size: 35px;
-  position: relative;
-  width: inherit;
-  background-color: #66a3ff;
-}
-
-.examples-title-1 h2 {
-  margin: 0;
-  padding: 30 0 30 0;
-}
-
-.examples-list{
-  font-size: 20px;
-  position: relative;
-  padding-bottom: 30px;
-  padding-left: 350px;
-  padding-right: 350px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  background-color: #66a3ff;
-  color: white;
-}
-
-.examples-list ul {
-  margin-top: 0;
-}
-
-.examples-title-2 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-size: 35px;
-  position: relative;
-  background-color: #80b3ff;
-  color: white;
-  margin: 0 350 40 350;
-}
-
-.examples-title-2 h2 {
-  margin-bottom: 0;
-}
-
-.owner-vs-tpw {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 900px;
-  grid-gap: 2em;
-  margin: 0 0 40 350;
-  color: white;
-  font-size: 20px;
-}
-
-.owner-vs-tpw h2 {
-  font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-align: center;
-}
-
-.owner-vs-tpw > div {
-  background-color: #66a3ff;
-}
-
-
-
-/*EXAMPLES PAGE*/
-
-/*Pricing */
-
-.pricingAll{
-  background-color: #efeff5;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.pricingHeader{
-  padding: 1em;
-  font-size: 25px;
-  background-color: #66a3ff;
-  color: white;
-}
-
-.pricingHeader h2 {
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-size: 70px;
-  margin: 10 0 10 0;
-}
-
-.pricing {
-  display: grid;
-  grid-template-columns: 250px 250px;
-  grid-gap: 2em;
-  margin: 50 50 0 50;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-
-.pricing > div{
-  background-color: #66a3ff;
-  text-align: center;
-}
-
-.contactPricing{
-  display: grid;
-  text-align: center;
-  background-color: lightgrey;
-
-}
-/*Pricing */
-
+/*Contact Page*/
 
 /*Footer*/
 
 
-.footer {
+/*.contact-footer {
   position: relative;
   bottom: 0;
   background-color: #99c2ff;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
-.footer-title{
+.contact-footer-title h1 {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.contact-footer-body {
   font-size: 20px;
 }
 
-.footer-body{
-  font-size: 20px;
-}
-
-.footer-contact-info{
-  font-size: 25px;
-}
-
-/*CONTACT PAGE FOOTER*/
-
-
-.contact-footer {
-  position: relative;
-  bottom: 0;
-  background-color: #99c2ff;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 15px;
-  font-family: 'Montserrat', sans-serif;
+.contact-footer-contact-info {
   color: white;
-}
-
-.contact-footer-title{
   font-size: 20px;
 }
-
-.contact-footer-body{
+.contact-footer-contact-info a {
+  color: white;
   font-size: 20px;
-}
-
-.contact-footer-contact-info{
-  font-size: 25px;
-  padding-bottom: 220px;
 }
