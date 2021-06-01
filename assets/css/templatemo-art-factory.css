@@ -1273,8 +1273,8 @@ contact
 .contact-form {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 350px;
-  padding-right: 350px;
+  /*padding-left: 350px;
+  padding-right: 350px;*/
   background: rgba(0, 136, 232, 1);
   background: -moz-linear-gradient(
     -45deg,
@@ -1318,7 +1318,8 @@ contact
 
 @media (max-width: 765px) {
   .contact-form {
-    padding: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: -7px;
   }
 }
