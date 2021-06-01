@@ -390,7 +390,7 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #fff;
-  font-size: 28px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -796,7 +796,7 @@ TRY IT ... with or without CENTER CENTER
 
 .welcome-area .header-text h1 {
   font-weight: 400;
-  font-size: 64px;
+  font-size: 50px;
   line-height: 80px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
