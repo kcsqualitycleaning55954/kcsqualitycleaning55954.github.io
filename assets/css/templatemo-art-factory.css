@@ -19,6 +19,10 @@
   text-transform: uppercase;
 }
 
+.pricing-tag{
+  margin-top: -10px;
+}
+
 .icon1 {
   width: 13%;
 }
